@@ -5,3 +5,5 @@ steps:
   automapSubstitutions: true
 images:
 - 'us-west2-docker.pkg.dev/test/quickstart-docker-repo/quickstart-image:tag1'
+options:
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
